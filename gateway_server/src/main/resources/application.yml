@@ -1,0 +1,7 @@
+server:
+  port: 28081
+  servlet:
+    context-path: "/gateway"
+extra:
+  param:
+    model-server: http://localhost:28082/model
